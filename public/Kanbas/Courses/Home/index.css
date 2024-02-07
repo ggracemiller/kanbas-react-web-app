@@ -48,3 +48,15 @@ div .status-column {
     width: 175px;
     background-color: rgb(213, 213, 213);
 }
+
+.black-bar {
+    background-color: black;
+}
+
+.black-bar i {
+    color: white;
+}
+
+.align-right {
+    text-align: right;
+}
