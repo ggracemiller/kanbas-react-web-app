@@ -1,6 +1,5 @@
 div .status-column {
     padding-left: 15px;
-    padding-top: 40px;
 }
 
 .status-column>div>a {
@@ -59,4 +58,33 @@ div .status-column {
 
 .align-right {
     text-align: right;
+}
+
+.breadcrumb-flex-row-container {
+    display: flex;
+    flex-direction: row;
+    resize: horizontal;
+    flex: auto;
+}
+
+.breadcrumb-row {
+    padding: 20px;
+}
+
+.wd-flex-grow-1 {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.wd-width {
+    width: 50px;
+    text-align: left;
+}
+
+.white-text h6 {
+    color: white;
+}
+
+.white-background {
+    background-color: white;
 }
