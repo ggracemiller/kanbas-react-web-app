@@ -1,0 +1,50 @@
+div .status-column {
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+.status-column>div>a {
+    color: red;
+}
+
+.status-column>div.red-links>ul>li>a {
+    color: red;
+}
+
+.status-column>div.black-links>a>button {
+    width: 200px;
+    font-size: small;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.status-column>div.black-links>a> {
+    color: black;
+}
+
+.red-links a {
+    color: red;
+}
+
+.lower-column {
+    padding-top: 40px;
+}
+
+.modules {
+    margin: 20px;
+}
+
+.module-buttons {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.select-button {
+    border-radius: 5px;
+    padding: 5px;
+    height: 38px;
+    width: 175px;
+    background-color: rgb(213, 213, 213);
+}

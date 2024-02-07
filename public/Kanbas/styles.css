@@ -15,3 +15,7 @@ table {
     display: flex;
     flex-direction: row;
 }
+
+.course-nav {
+    padding-top: 40px;
+}
