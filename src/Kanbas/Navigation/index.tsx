@@ -1,5 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import "./index.css";
 import links from "./links";
 
 function KanbasNavigation() {

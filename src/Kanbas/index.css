@@ -1,0 +1,111 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 80px;
+}
+
+.wd-kanbas-navigation li {
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+    background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+    color: red;
+}
+
+.wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-kanbas-navigation a i {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 3px;
+}
+
+.wd-kanbas-navigation-icons {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 3px;
+}
+
+.wd-kanbas-courses h4 {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules>li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules>li>div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 4px solid green;
+}
+
+.wd-modules>li>ul>li>ul>li {
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 0px;
+    border-top: 1px solid gray !important;
+}
+
+.wd-modules>li {
+    margin-bottom: 20px;
+}
+
+.red-links a {
+    color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.course-nav {
+    padding-top: 40px;
+}
