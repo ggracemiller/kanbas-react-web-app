@@ -109,3 +109,14 @@ table {
 .course-nav {
     padding-top: 40px;
 }
+
+.breadcrumb {
+    color: grey;
+    display: inline-block;
+}
+
+.inline-button {
+    float: "right";
+    margin-right: 0;
+    padding-left: 100px;
+}

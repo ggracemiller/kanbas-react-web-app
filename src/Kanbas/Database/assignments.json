@@ -1,0 +1,1378 @@
+[
+  {
+    "_id": "MATH1234-assignments",
+    "course": "MATH123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "MATH1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "MATH1234-quizzes",
+    "course": "MATH123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "MATH1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "MATH1234-exams",
+    "course": "MATH123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "MATH1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "MATH1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "MATH1234-projects",
+    "course": "MATH123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "MATH1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "HIST1234-assignments",
+    "course": "HIST123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "HIST1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "HIST1234-quizzes",
+    "course": "HIST123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "HIST1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "HIST1234-exams",
+    "course": "HIST123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "HIST1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "HIST1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "HIST1234-projects",
+    "course": "HIST123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "HIST1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "PHYS1234-assignments",
+    "course": "PHYS123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "PHYS1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "PHYS1234-quizzes",
+    "course": "PHYS123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "PHYS1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "PHYS1234-exams",
+    "course": "PHYS123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "PHYS1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "PHYS1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "PHYS1234-projects",
+    "course": "PHYS123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "PHYS1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1234-assignments",
+    "course": "COS123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "COS1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1234-quizzes",
+    "course": "COS123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "COS1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1234-exams",
+    "course": "COS123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "COS1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1234-projects",
+    "course": "COS123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "COS1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1235-assignments",
+    "course": "COS123501",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "COS1235-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1235-quizzes",
+    "course": "COS123501",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "COS1235-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1235-exams",
+    "course": "COS123501",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "COS1235-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "COS1235-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "COS1235-projects",
+    "course": "COS123501",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "COS1235-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "ENGW1234-assignments",
+    "course": "ENGW123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "ENGW1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "ENGW1234-quizzes",
+    "course": "ENGW123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "ENGW1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "ENGW1234-exams",
+    "course": "ENGW123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "ENGW1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "ENGW1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "ENGW1234-projects",
+    "course": "ENGW123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "ENGW1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "GYM1234-assignments",
+    "course": "GYM123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "GYM1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "GYM1234-quizzes",
+    "course": "GYM123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "GYM1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "GYM1234-exams",
+    "course": "GYM123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "GYM1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "GYM1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "GYM1234-projects",
+    "course": "GYM123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "GYM1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "CS1234-assignments",
+    "course": "CS123401",
+    "title": "Assignments",
+    "percent": 40,
+    "sections": [
+      {
+        "_id": "CS1234-A1",
+        "title": "A1 - ENV + HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-A2",
+        "title": "A2 - CSS + BOOTSTRAP",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 50,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-A3",
+        "title": "A3 - JS + REACT",
+        "available": false,
+        "not_available_until": "Feb 23 at 11:59pm",
+        "due": "Feb 29 at 11:59pm",
+        "points": 100,
+        "multiple_modules": false,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-A4",
+        "title": "A4 - STATE + REDUX",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-A5",
+        "title": "A5 - NODE + SESSION",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-A6",
+        "title": "A6 - MONGO + MONGOOSE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "CS1234-quizzes",
+    "course": "CS123401",
+    "title": "Quizzes",
+    "percent": 10,
+    "sections": [
+      {
+        "_id": "CS1234-Q1",
+        "title": "Q1 - HTML",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-Q2",
+        "title": "Q2 - CSS",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-Q3",
+        "title": "Q3 - JS, ES6",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-Q4",
+        "title": "Q4 - NODE",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-Q5",
+        "title": "Q5 - MONGO",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "CS1234-exams",
+    "course": "CS123401",
+    "title": "Exams",
+    "percent": 20,
+    "sections": [
+      {
+        "_id": "CS1234-E1",
+        "title": "Midterm",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      },
+      {
+        "_id": "CS1234-E2",
+        "title": "Final Exam",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  },
+  {
+    "_id": "CS1234-projects",
+    "course": "CS123401",
+    "title": "Projects",
+    "percent": 30,
+    "sections": [
+      {
+        "_id": "CS1234-P1",
+        "title": "Project",
+        "available": true,
+        "not_available_until": "",
+        "due": "Feb 23 at 11:59pm",
+        "points": 100,
+        "multiple_modules": true,
+        "link": "Edit/screen.html"
+      }
+    ]
+  }
+]

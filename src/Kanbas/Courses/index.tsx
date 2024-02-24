@@ -1,25 +1,19 @@
 import { courses } from "../../Kanbas/Database";
-import { Navigate, Route, Routes, useParams } from "react-router-dom";
-import { HiMiniBars3 } from "react-icons/hi2";
+import { Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
 import CourseNavigation from "./Navigation";
 import Modules from "./Modules";
 import Home from "./Home";
+import Assignments from "./Assignments";
+import Breadcrumbs from "./Breadcrumbs";
 
 function Courses() {
   const { courseId } = useParams();
+  const { pathname } = useLocation();
   const course = courses.find((course) => course._id === courseId);
   return (
     <div className="wd-kanbas-courses">
-      <h4>
-        <HiMiniBars3 /> Course {course?.number} {course?.name}
-      </h4>
-      {/* <nav aria-label="breadcrumb" style={breadcrumbs}>
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><a href="/Kanbas/Courses/screen.html">CS4550.12631.202410</a>
-                            </li>
-                            <li className="breadcrumb-item active" aria-current="page">Modules</li>
-                        </ol>
-                    </nav> */}
+      
+      {Breadcrumbs(course?.number, course?.name, pathname)}
       <CourseNavigation />
       <div>
         <div
@@ -31,7 +25,7 @@ function Courses() {
             <Route path="Home" element={<Home />} />
             <Route path="Modules" element={<Modules />} />
             <Route path="Piazza" element={<h1>Piazza</h1>} />
-            <Route path="Assignments" element={<h1>Assignments</h1>} />
+            <Route path="Assignments" element={<Assignments />} />
             <Route
               path="Assignments/:assignmentId"
               element={<h1>Assignment Editor</h1>}

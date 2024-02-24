@@ -6,7 +6,7 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import Buttons from "./Buttons";
 
-function ModuleList() {
+function List() {
   const { courseId } = useParams();
   const modulesList = modules.filter((module) => module.course === courseId);
   const [selectedModule, setSelectedModule] = useState(modulesList[0]);
@@ -66,4 +66,4 @@ function ModuleList() {
     </>
   );
 }
-export default ModuleList;
+export default List;

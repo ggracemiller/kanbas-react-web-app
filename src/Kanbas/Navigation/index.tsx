@@ -10,10 +10,11 @@ function KanbasNavigation() {
           key={index}
           className={pathname.includes(link.link) ? "wd-active" : ""}
         >
-          <Link to={link.fullLink ? link.label : `/Kanbas/${link.label}`}>
+          {link.fullLink ? <a href={link.link}>{" "}
+            {link.icon} {link.label}{" "}</a> : <Link to={`/Kanbas/${link.label}`}>
             {" "}
             {link.icon} {link.label}{" "}
-          </Link>
+          </Link>}
         </li>
       ))}
     </ul>
