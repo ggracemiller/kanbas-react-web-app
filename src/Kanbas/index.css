@@ -120,3 +120,7 @@ table {
     margin-right: 0;
     padding-left: 100px;
 }
+
+.btn-sml {
+    height: 3.5vh;
+}
