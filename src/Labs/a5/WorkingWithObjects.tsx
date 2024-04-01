@@ -12,7 +12,7 @@ function WorkingWithObjects() {
     completed: false,
     score: 0,
   });
-  const ASSIGNMENT_URL = `${API_BASE}/a5/assignment`;
+  const ASSIGNMENT_URL = `${API_BASE}a5/assignment`;
 
   const fetchAssignment = async () => {
     const response = await axios.get(`${ASSIGNMENT_URL}`);
@@ -34,7 +34,7 @@ function WorkingWithObjects() {
     course: "MATH1234",
     description: "First Week Introduction",
   });
-  const MODULE_URL = `${API_BASE}/a5/module`;
+  const MODULE_URL = `${API_BASE}a5/module`;
 
   return (
     <div>
@@ -119,25 +119,25 @@ function WorkingWithObjects() {
         Update Score
       </a>
       <h4>Retrieving Objects</h4>
-      <a className="btn btn-primary" href={`${API_BASE}/a5/assignment`}>
+      <a className="btn btn-primary" href={`${API_BASE}a5/assignment`}>
         Get Assignment
       </a>
       <h4>Retrieving Properties</h4>
       <a
         className="btn btn-primary"
-        href={`${API_BASE}/a5/assignment/title`}
+        href={`${API_BASE}a5/assignment/title`}
       >
         Get Title
       </a>
       <a
         className="btn btn-primary"
-        href={`${API_BASE}/a5/assignment/completed`}
+        href={`${API_BASE}a5/assignment/completed`}
       >
         Get Completed
       </a>
       <a
         className="btn btn-primary"
-        href={`${API_BASE}/a5/assignment/score`}
+        href={`${API_BASE}a5/assignment/score`}
       >
         Get Score
       </a>

@@ -25,7 +25,7 @@ function Kanbas() {
 
   // const COURSES_API = "http://localhost:4000/api/courses";
   // const COURSES_API = "https://kanbas-node-server-app-biz7.onrender.com/api/courses";
-  const COURSES_API = `${API_BASE}/api/courses`;
+  const COURSES_API = `${API_BASE}api/courses`;
 
   const findAllCourses = async () => {
     console.log(COURSES_API)
