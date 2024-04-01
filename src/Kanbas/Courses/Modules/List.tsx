@@ -1,12 +1,18 @@
-import React, { useState } from "react";
-import { modules } from "../../Database";
+import React, { useEffect, useState } from "react";
 import { FaEllipsisV, FaCheckCircle, FaPlusCircle } from "react-icons/fa";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import Buttons from "./Buttons";
 import { useSelector, useDispatch } from "react-redux";
-import { addModule, deleteModule, updateModule, setModule } from "./reducer";
+import {
+  addModule,
+  deleteModule,
+  updateModule,
+  setModule,
+  setModules,
+} from "./reducer";
 import { KanbasState } from "../../store";
+import * as client from "./client";
 
 function List() {
   const { courseId } = useParams();
@@ -18,6 +24,30 @@ function List() {
   );
   const dispatch = useDispatch();
   const [selectedModule, setSelectedModule] = useState(moduleList[0]);
+
+  useEffect(() => {
+    client
+      .findModulesForCourse(courseId)
+      .then((modules) => dispatch(setModules(modules)));
+  }, [courseId]);
+
+  const handleAddModule = () => {
+    client.createModule(courseId, module).then((module) => {
+      dispatch(addModule(module));
+    });
+  };
+
+  const handleDeleteModule = (moduleId: string) => {
+    client.deleteModule(moduleId).then((status) => {
+      dispatch(deleteModule(moduleId));
+    });
+  };
+
+  const handleUpdateModule = async () => {
+    /*const status = */ await client.updateModule(module);
+    dispatch(updateModule(module));
+  };
+
   return (
     <>
       {<Buttons />} <br />
@@ -35,16 +65,10 @@ function List() {
         }
       />{" "}
       <br />
-      <button
-        className="btn btn-primary"
-        onClick={() => dispatch(addModule({ ...module, course: courseId }))}
-      >
+      <button className="btn btn-primary" onClick={handleAddModule}>
         Add
       </button>
-      <button
-        className="btn btn-success"
-        onClick={() => dispatch(updateModule(module))}
-      >
+      <button className="btn btn-success" onClick={handleUpdateModule}>
         Update
       </button>
       <ul className="list-group wd-modules red-links">
@@ -71,7 +95,7 @@ function List() {
 
                   <button
                     className="btn btn-danger btn-sml"
-                    onClick={() => dispatch(deleteModule(module._id))}
+                    onClick={() => handleDeleteModule(module._id)}
                   >
                     Delete
                   </button>
