@@ -31,3 +31,10 @@ export const findModulesForCourse = async (courseId: any) => {
   const response = await axios.get(`${COURSES_API}/${courseId}/modules`);
   return response.data;
 };
+
+export const findCourseId = async (courseId: any) => {
+  console.log(courseId)
+  const response = await axios.get(`${COURSES_API}/name/${courseId}`);
+  console.log(response.data)
+  return response.data;
+};

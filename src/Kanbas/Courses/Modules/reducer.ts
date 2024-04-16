@@ -22,16 +22,14 @@ export interface ModulesType {
 const initialState = {
   modules: [] as any[],
   module: {
-    _id: "NEW1",
+    moduleId: "NEW1-01",
     course: "NEW1",
     title: "New Module",
     subsections: [
       {
-        _id: "NEW1",
         title: "New Subsection",
         lessons: [
           {
-            _id: "NEW1",
             text: "New Lesson",
             link: "google.com",
           },

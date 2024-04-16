@@ -13,26 +13,47 @@ import {
 } from "./reducer";
 import { KanbasState } from "../../store";
 import * as client from "./client";
+import { ModulesType } from "./reducer";
 
 function List() {
   const { courseId } = useParams();
+  const [courseIdString, setCourseIdString] = useState<any>("");
   const moduleList = useSelector(
-    (state: KanbasState) => state.modulesReducer.modules
+    (state: KanbasState) => [state.modulesReducer.module]
   );
   const module = useSelector(
     (state: KanbasState) => state.modulesReducer.module
   );
+  const [allModules, setAllModules] = useState<ModulesType>();
   const dispatch = useDispatch();
+  console.log(moduleList)
   const [selectedModule, setSelectedModule] = useState(moduleList[0]);
 
   useEffect(() => {
-    client
-      .findModulesForCourse(courseId)
-      .then((modules) => dispatch(setModules(modules)));
+    client.findCourseId(courseId).then(
+      (course) => {
+        setCourseIdString(course.courseId);
+        console.log(course.courseId);
+        console.log(courseIdString);
+        client.findModulesForCourse(course.courseId).then(
+          (modules) => {
+            dispatch(setModules(modules));
+            setAllModules(modules);
+            console.log(moduleList);
+            console.log(allModules);
+          }
+        );
+      }
+      
+    );
+    // client
+    //   .findModulesForCourse(courseId)
+    //   .then((modules) => dispatch(setModules(modules)));
   }, [courseId]);
 
   const handleAddModule = () => {
-    client.createModule(courseId, module).then((module) => {
+    client.createModule(courseIdString, module).then((module) => {
+      console.log(module);
       dispatch(addModule(module));
     });
   };
@@ -72,8 +93,8 @@ function List() {
         Update
       </button>
       <ul className="list-group wd-modules red-links">
-        {moduleList
-          .filter((module) => module.course === courseId)
+        {allModules
+          .filter((module) => module.course === courseIdString)
           .map((module, index) => (
             <li
               key={index}

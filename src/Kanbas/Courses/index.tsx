@@ -12,6 +12,7 @@ import Assignments from "./Assignments";
 import Breadcrumbs from "./Breadcrumbs";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import * as client from "./Modules/client";
 
 const API_BASE = process.env.REACT_APP_API_BASE;
 
@@ -21,12 +22,27 @@ function Courses({ courses }: { courses: any[] }) {
   const COURSES_API = `${API_BASE}api/courses`;
 
   const [course, setCourse] = useState<any>({ _id: "" });
+  const [courseIdMongo, setCourseIdMongo] = useState<any>("");
+
+  const getCourseId = async (courseId?: string) => {
+    client.findCourseId(courseId).then(
+      (course) => {
+        console.log(course._id);
+        setCourseIdMongo(course._id);
+      });
+  };
+
   const findCourseById = async (courseId?: string) => {
     const response = await axios.get(`${COURSES_API}/${courseId}`);
+    console.log(response.data);
     setCourse(response.data);
+    console.log(course)
   };
   useEffect(() => {
-    findCourseById(courseId);
+    console.log("WOWOWOW" + courseId)
+    getCourseId(courseId);
+    console.log("OWOWOW: " + courseIdMongo)
+    findCourseById(courseIdMongo);
   }, [courseId]);
 
   return (

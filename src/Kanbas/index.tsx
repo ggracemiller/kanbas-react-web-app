@@ -31,7 +31,9 @@ function Kanbas() {
   const findAllCourses = async () => {
     console.log(COURSES_API);
     const response = await axios.get(COURSES_API);
+    console.log(response.data);
     setCourses(response.data);
+    console.log(courses);
   };
   useEffect(() => {
     findAllCourses();
@@ -43,11 +45,13 @@ function Kanbas() {
   };
 
   const deleteCourse = async (courseId: string) => {
-    /*const response = */ await axios.delete(`${COURSES_API}/${courseId}`);
+    await axios.delete(`${COURSES_API}/${courseId}`);
     setCourses(courses.filter((c) => c._id !== courseId));
   };
 
   const updateCourse = async () => {
+    console.log("LOOK:" + course.toString())
+    console.log("LOOK2:" + course._id)
     /*const response = */ await axios.put(
       `${COURSES_API}/${course._id}`,
       course
