@@ -21,12 +21,22 @@ function Courses({ courses }: { courses: any[] }) {
   const COURSES_API = `${API_BASE}api/courses`;
 
   const [course, setCourse] = useState<any>({ _id: "" });
-  const findCourseById = async (courseId?: string) => {
-    const response = await axios.get(`${COURSES_API}/${courseId}`);
-    setCourse(response.data);
-  };
+  const [courseObjectId, setCourseObjectId] = useState<any>("");
+
+  const getCourseByCourseStringId = async (courseStringId?: string) => {
+    const response = await axios.get(`${COURSES_API}/name/${courseStringId}`);
+    setCourseObjectId(response.data._id)
+    setCourse(response.data)
+    console.log(courseObjectId)
+  }
+
+  // const findCourseById = async (courseId?: string) => {
+  //   console.log(courseId);
+  //   const response = await axios.get(`${COURSES_API}/${courseId}`);
+  //   setCourse(response.data);
+  // };
   useEffect(() => {
-    findCourseById(courseId);
+    getCourseByCourseStringId(courseId);
   }, [courseId]);
 
   return (

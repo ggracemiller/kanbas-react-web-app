@@ -13,11 +13,16 @@ import {
 } from "./reducer";
 import { KanbasState } from "../../store";
 import * as client from "./client";
+import axios from "axios";
+
+const API_BASE = process.env.REACT_APP_API_BASE;
 
 function List() {
+  const COURSES_API = `${API_BASE}api/courses`;
+
   const { courseId } = useParams();
-  const moduleList = useSelector(
-    (state: KanbasState) => state.modulesReducer.modules
+  const moduleList = useSelector((state: KanbasState) => 
+    state.modulesReducer.modules,
   );
   const module = useSelector(
     (state: KanbasState) => state.modulesReducer.module
@@ -25,10 +30,21 @@ function List() {
   const dispatch = useDispatch();
   const [selectedModule, setSelectedModule] = useState(moduleList[0]);
 
+  const [courseObjectId, setCourseObjectId] = useState<any>("");
+
+  const getCourseByCourseStringId = async (courseStringId?: string) => {
+    const response = await axios.get(`${COURSES_API}/name/${courseStringId}`);
+    setCourseObjectId(response.data._id);
+    console.log(courseObjectId);
+  };
+
   useEffect(() => {
-    client
-      .findModulesForCourse(courseId)
-      .then((modules) => dispatch(setModules(modules)));
+    getCourseByCourseStringId(courseId);
+    client.findModulesForCourse(courseId).then((modules) => {
+      dispatch(setModules(modules));
+      console.log(modules);
+    });
+    console.log(moduleList);
   }, [courseId]);
 
   const handleAddModule = () => {

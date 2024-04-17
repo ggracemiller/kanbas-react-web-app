@@ -20,18 +20,33 @@ export interface ModulesType {
   }
 
 const initialState = {
-  modules: [] as any[],
-  module: {
-    _id: "NEW1",
+  modules: [{
+    _id: "0",
+    moduleId: "NEW-M",
     course: "NEW1",
     title: "New Module",
     subsections: [
       {
-        _id: "NEW1",
         title: "New Subsection",
         lessons: [
           {
-            _id: "NEW1",
+            text: "New Lesson",
+            link: "google.com",
+          },
+        ],
+      },
+    ],
+  }],
+  module: {
+    _id: "0",
+    moduleId: "NEW-M",
+    course: "NEW1",
+    title: "New Module",
+    subsections: [
+      {
+        title: "New Subsection",
+        lessons: [
+          {
             text: "New Lesson",
             link: "google.com",
           },

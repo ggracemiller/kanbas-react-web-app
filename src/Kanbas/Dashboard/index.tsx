@@ -68,7 +68,7 @@ function Dashboard({
                 <div className="card-body">
                   <Link
                     className="card-title"
-                    to={`/Kanbas/Courses/${course._id}/Home`}
+                    to={`/Kanbas/Courses/${course.courseId}/Home`}
                     style={{
                       textDecoration: "none",
                       color: "navy",
@@ -79,7 +79,7 @@ function Dashboard({
                   </Link>
                   <p className="card-text">{course.description}</p>
                   <Link
-                    to={`/Kanbas/Courses/${course._id}/Home`}
+                    to={`/Kanbas/Courses/${course.courseId}/Home`}
                     className="btn btn-primary"
                   >
                     Go{" "}
