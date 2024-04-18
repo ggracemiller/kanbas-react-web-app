@@ -25,6 +25,7 @@ function Courses({ courses }: { courses: any[] }) {
     const response = await axios.get(`${COURSES_API}/${courseId}`);
     setCourse(response.data);
   };
+  
   useEffect(() => {
     findCourseById(courseId);
   }, [courseId]);
